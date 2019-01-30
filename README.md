@@ -1,8 +1,6 @@
 # Moovy
-Moovy is a web application that gives movie suggestions based on the user's mood.
-
-## Development approach
----- to be completed ----
+Moovy is a web application that gives movie suggestions based on the user's mood. Sliders indicate two moods.
+Upon moving the sliders, the application returns the movies which are closest to the user's currently selected mood.
 
 ## How to run
 This is a Spring Boot Maven application. Extract all the files from the zip file, and import as a Maven project into any IDE.
@@ -23,5 +21,4 @@ Best viewed in Google Chrome.
 - [ ] Prototypes
 #### Readme
 - [ ] Description
-- [ ] Development approach
 - [x] How to run
