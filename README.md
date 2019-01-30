@@ -20,5 +20,5 @@ Best viewed in Google Chrome.
 - [ ] Logo
 - [ ] Prototypes
 #### Readme
-- [ ] Description
+- [x] Description
 - [x] How to run
