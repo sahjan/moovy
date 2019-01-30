@@ -13,7 +13,7 @@ Best viewed in Google Chrome.
 - [x] Initial commit
 #### Application
 - [x] Basic functionality
-- [ ] Clean up HTML header/nav/footer styling
+- [x] Clean up HTML
 - [ ] UI
 ##### UX/UI
 - [ ] Wireframes
