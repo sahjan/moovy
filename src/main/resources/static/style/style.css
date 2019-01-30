@@ -39,14 +39,22 @@
     cursor: pointer;
 }
 
-header {
-	background-color:#eaeef9; /* For browsers that do not support gradients */
-	padding-top: 30px;
-	padding-bottom: 10px;
-	width: 100%;
-	top: 0;
-	left: 0;
-    background-image: linear-gradient(to right, #eaeef9, #fafaff, #eaeef9);
+ header {
+    background-color:#eaeef9; /* For browsers that do not support gradients */
+    font-size: 26px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 100%;
+    top: 0;
+    left: 0;
+	background-image: linear-gradient(to right, #eaeef9, #fafaff, #eaeef9);
+}
+ header img {
+     padding-left: 15px;
+}
+
+nav {
+	
 }
 
 body
@@ -138,25 +146,6 @@ input[type=file] {
 }
 
 /*tables*/
-
-table#tbl-header {
-	text-align: left;
-	display: inline-block;
-}
-
-table#tbl-header th {
-	font-size:26px;
-	padding-left:15px;
-	padding-right:15px;
-}
-
-table#tbl-header td {
-	font-size:17px;
-	padding-left:15px;
-	padding-right:15px;
-	padding-top:20px;
-}
-
 table#tbl-sliders {
 	display: inline-block;
 }
@@ -195,17 +184,6 @@ table#tbl-movies td {
 	padding:15px;
 	padding-left:20px;
 	padding-right:20px;
-}
-
-table#tbl-footer {
-	margin: 10px;
-	display: inline-block;
-	font-size:13px;
-}
-
-table#tbl-footer td {
-	padding-left:15px;
-	padding-right:15px;
 }
 
 /*links*/
