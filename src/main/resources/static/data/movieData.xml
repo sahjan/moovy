@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movieList>
+    <movie>
+        <name>A Bug's Life</name>
+        <path>images/movie-posters/ABugsLife.jpg</path>
+        <rating>U</rating>
+        <acValue>35</acValue>
+        <hsValue>90</hsValue>
+        <twaValue>40</twaValue>
+        <sfValue>10</sfValue>
+    </movie>
+    <movie>
+        <name>Anastasia</name>
+        <path>images/movie-posters/Anastasia.jpg</path>
+        <rating>U</rating>
+        <acValue>35</acValue>
+        <hsValue>90</hsValue>
+        <twaValue>40</twaValue>
+        <sfValue>10</sfValue>
+    </movie>
+    <movie>
+        <name>Aliens vs Predator: Requiem</name>
+        <path>images/movie-posters/AVPRequiem.jpg</path>
+        <rating>15</rating>
+        <acValue>60</acValue>
+        <hsValue>45</hsValue>
+        <twaValue>65</twaValue>
+        <sfValue>75</sfValue>
+    </movie>
+    <movie>
+        <name>Annabelle: Creation</name>
+        <path>images/movie-posters/Annabelle-Creation.jpg</path>
+        <rating>15</rating>
+        <acValue>60</acValue>
+        <hsValue>45</hsValue>
+        <twaValue>85</twaValue>
+        <sfValue>90</sfValue>
+    </movie>
+    <movie>
+        <name>Black Panther</name>
+        <path>images/movie-posters/Black-Panther.jpg</path>
+        <rating>12</rating>
+        <acValue>65</acValue>
+        <hsValue>30</hsValue>
+        <twaValue>85</twaValue>
+        <sfValue>65</sfValue>
+    </movie>
+    <movie>
+        <name>Bruce Almighty</name>
+        <path>images/movie-posters/BruceAlmighty.jpg</path>
+        <rating>12</rating>
+        <acValue>60</acValue>
+        <hsValue>75</hsValue>
+        <twaValue>35</twaValue>
+        <sfValue>20</sfValue>
+    </movie>
+    <movie>
+        <name>Cats and Dogs</name>
+        <path>images/movie-posters/Cats-and-Dogs.jpg</path>
+        <rating>PG</rating>
+        <acValue>45</acValue>
+        <hsValue>75</hsValue>
+        <twaValue>45</twaValue>
+        <sfValue>30</sfValue>
+    </movie>
+    <movie>
+        <name>Clueless</name>
+        <path>images/movie-posters/clueless.jpg</path>
+        <rating>12</rating>
+        <acValue>45</acValue>
+        <hsValue>65</hsValue>
+        <twaValue>35</twaValue>
+        <sfValue>20</sfValue>
+    </movie>
+    <movie>
+        <name>Ferris Bueller's Day Off</name>
+        <path>images/movie-posters/FerrisBuellersDayOff.jpg</path>
+        <rating>12</rating>
+        <acValue>45</acValue>
+        <hsValue>70</hsValue>
+        <twaValue>35</twaValue>
+        <sfValue>15</sfValue>
+    </movie>
+    <movie>
+        <name>Avengers Assemble</name>
+        <path>images/movie-posters/Avengers-Assemble.jpg</path>
+        <rating>12</rating>
+        <acValue>70</acValue>
+        <hsValue>55</hsValue>
+        <twaValue>75</twaValue>
+        <sfValue>70</sfValue>
+    </movie>
+    <movie>
+        <name>Home Alone</name>
+        <path>images/movie-posters/Home-Alone.jpg</path>
+        <rating>PG</rating>
+        <acValue>40</acValue>
+        <hsValue>80</hsValue>
+        <twaValue>40</twaValue>
+        <sfValue>20</sfValue>
+    </movie>
+    <movie>
+        <name>King Kong</name>
+        <path>images/movie-posters/King-Kong.jpg</path>
+        <rating>12</rating>
+        <acValue>70</acValue>
+        <hsValue>45</hsValue>
+        <twaValue>75</twaValue>
+        <sfValue>70</sfValue>
+    </movie>
+    <movie>
+        <name>Kingsman: The Secret Service</name>
+        <path>images/movie-posters/Kingsman.jpg</path>
+        <rating>15</rating>
+        <acValue>75</acValue>
+        <hsValue>70</hsValue>
+        <twaValue>65</twaValue>
+        <sfValue>60</sfValue>
+    </movie>
+    <movie>
+        <name>Me Before You</name>
+        <path>images/movie-posters/Me-Before-You.jpg</path>
+        <rating>12</rating>
+        <acValue>10</acValue>
+        <hsValue>35</hsValue>
+        <twaValue>15</twaValue>
+        <sfValue>20</sfValue>
+    </movie>
+    <movie>
+        <name>A Nightmare On Elm Street</name>
+        <path>images/movie-posters/nightmareonelmstreet.jpg</path>
+        <rating>18</rating>
+        <acValue>60</acValue>
+        <hsValue>45</hsValue>
+        <twaValue>80</twaValue>
+        <sfValue>90</sfValue>
+    </movie>
+    <movie>
+        <name>Pitch Perfect 3</name>
+        <path>images/movie-posters/Pitch-Perfect-3.jpg</path>
+        <rating>12</rating>
+        <acValue>55</acValue>
+        <hsValue>75</hsValue>
+        <twaValue>40</twaValue>
+        <sfValue>20</sfValue>
+    </movie>
+    <movie>
+        <name>Sense and Sensibility</name>
+        <path>images/movie-posters/SenseAndSensibility.jpg</path>
+        <rating>U</rating>
+        <acValue>10</acValue>
+        <hsValue>35</hsValue>
+        <twaValue>15</twaValue>
+        <sfValue>20</sfValue>
+    </movie>
+    <movie>
+        <name>The Dark Knight Rises</name>
+        <path>images/movie-posters/The-Dark-Knight-Rises.jpg</path>
+        <rating>12</rating>
+        <acValue>70</acValue>
+        <hsValue>55</hsValue>
+        <twaValue>75</twaValue>
+        <sfValue>70</sfValue>
+    </movie>
+    <movie>
+        <name>The Disaster Artist</name>
+        <path>images/movie-posters/The-Disaster-Artist.jpg</path>
+        <rating>15</rating>
+        <acValue>45</acValue>
+        <hsValue>70</hsValue>
+        <twaValue>40</twaValue>
+        <sfValue>25</sfValue>
+    </movie>
+    <movie>
+        <name>The Fault in Our Stars</name>
+        <path>images/movie-posters/The-Fault-in-Our-Stars.jpg</path>
+        <rating>12</rating>
+        <acValue>10</acValue>
+        <hsValue>35</hsValue>
+        <twaValue>15</twaValue>
+        <sfValue>20</sfValue>
+    </movie>
+    <movie>
+        <name>The Theory of Everything</name>
+        <path>images/movie-posters/theoryofeverything.jpg</path>
+        <rating>12</rating>
+        <acValue>10</acValue>
+        <hsValue>35</hsValue>
+        <twaValue>15</twaValue>
+        <sfValue>20</sfValue>
+    </movie>
+    <movie>
+        <name>This Is The End</name>
+        <path>images/movie-posters/This-Is-The-End.jpg</path>
+        <rating>15</rating>
+        <acValue>45</acValue>
+        <hsValue>75</hsValue>
+        <twaValue>35</twaValue>
+        <sfValue>20</sfValue>
+    </movie>
+    <movie>
+        <name>WALL-E</name>
+        <path>images/movie-posters/walle.jpg</path>
+        <rating>U</rating>
+        <acValue>35</acValue>
+        <hsValue>90</hsValue>
+        <twaValue>30</twaValue>
+        <sfValue>10</sfValue>
+    </movie>
+    <movie>
+        <name>Zombieland</name>
+        <path>images/movie-posters/zombieland.jpg</path>
+        <rating>15</rating>
+        <acValue>60</acValue>
+        <hsValue>45</hsValue>
+        <twaValue>80</twaValue>
+        <sfValue>90</sfValue>
+    </movie>
+    <movie>
+        <name>Zootropolis</name>
+        <path>images/movie-posters/Zootropolis.jpg</path>
+        <rating>PG</rating>
+        <acValue>35</acValue>
+        <hsValue>90</hsValue>
+        <twaValue>40</twaValue>
+        <sfValue>10</sfValue>
+    </movie>
+</movieList>

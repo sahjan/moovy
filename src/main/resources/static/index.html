@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="style/style.css" type="text/css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree" rel="stylesheet">
+        <script type="text/javascript" src="js/script.js" defer></script>
+		<title>Moovy</title>
+	</head>
+
+	<body>
+	<!-- header-->
+		<header>
+			<table id="tbl-header">
+				<tr>
+					<th colspan="3"><img src="" height="42"></th>
+					<th>Moovy</th>
+				</tr>
+				<!-- navigation -->
+				<tr>
+					<td><a id="upload">Upload</a></td>
+					<td><a href="/">Reset Sliders</a></td>
+				</tr>
+			</table>
+		</header>
+		
+		<!-- The Modal popup for uploading-->
+		<div id="myModal">
+			<!-- Modal content -->
+			<div id="modal-content">
+				<span class="close">&times;</span>
+				<p>Upload a collection of movies to use the slider with. </p>
+				<form id="upload-form">
+					<p><input type="file" name="file" id="file" class="inputfile" accept="text/xml" required></p>
+					<button type="submit" name="submit" value="Upload" class="submit-btn">Upload</button>
+				</form>
+			</div>
+		</div>
+
+		<div id="content">
+			<p>Moody helps you to decide which movies to watch, based on your mood.
+			Use the sliders to indicate your current mood. Movie suggestions will appear based on this.</p>
+			<p>Drag the sliders to correspond to your mood.</p>
+			<!-- sliders -->
+			<div class="slidercontainer">
+                <table id="tbl-sliders">
+                    <tr>
+                        <td class="left">Anxious</td>
+                        <td class="middle"><input type="range" min="0" max="100" value="50" class="slider" id="acS"></td>
+                        <td class="right">Calm</td>
+                    </tr>
+                    <tr>
+                        <td class="left">Happy</td>
+                        <td class="middle"><input type="range" min="0" max="100" value="50" class="slider" id ="hsS"></td>
+                        <td class="right">Sad</td>
+                    </tr>
+                    <tr>
+                        <td class="left">Tired</td>
+                        <td class="middle"><input type="range" min="0" max="100" value="50" class="slider" id ="twaS"></td>
+                        <td class="right">Wide Awake</td>
+                    </tr>
+                    <tr>
+                        <td class="left">Scared</td>
+                        <td class="middle"><input type="range" min="0" max="100" value="50" class="slider" id="sfS"></td>
+                        <td class="right">Fearless</td>
+                    </tr>
+                </table>
+			</div>
+		</div><br>
+
+		<!-- The movies -->
+		<div id="movies">
+			<table id="tbl-movies">
+					<tr>
+						<td><img src="images/page/placeholder.png"></td>
+						<td><img src="images/page/placeholder.png"></td>
+						<td><img src="images/page/placeholder.png"></td>
+						<td><img src="images/page/placeholder.png"></td>
+						<td><img src="images/page/placeholder.png"></td>
+					</tr>
+					<tr>
+						<td>No content</td>
+						<td>No content</td>
+						<td>No content</td>
+						<td>No content</td>
+						<td>No content</td>
+					</tr>
+				</table>
+		</div>
+		
+		<footer>
+			<img src="images/logo.png" height="30">
+			Moovy &#169; 2019 Sahjan Soomro & Adeeb Sharif | 
+			<a href="https://github.com/sahjan">Sahjan Soomro - Github</a> |
+			<a href="https://github.com/sahjan/moovy">Source code</a> |
+			<a href="https://adeebtriesdesigningstuff.wordpress.com/">Adeeb Sharif portfolio</a>
+		</footer>
+	</body>
+</html>
+

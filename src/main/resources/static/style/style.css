@@ -1,0 +1,240 @@
+/* 09/11/2018 by Sahjan Soomro */
+
+/* The Modal (background) */
+#myModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+#modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #cc0033;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #903;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+	background-color:#eaeef9; /* For browsers that do not support gradients */
+	padding-top: 30px;
+	padding-bottom: 10px;
+	width: 100%;
+	top: 0;
+	left: 0;
+    background-image: linear-gradient(to right, #eaeef9, #fafaff, #eaeef9);
+}
+
+body
+{
+	color:#4a4a4a;
+	font-family:'Bai Jamjuree', sans-serif;
+	text-align:center;
+	margin:0px;
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#content {
+	margin: auto;
+    width: 50%;
+    font-size: 20px;
+	text-align:center;
+}
+
+#movies {
+    text-align:center;
+}
+
+footer {
+    background-color:#f4f4f4;
+    margin-top:20px;
+    padding-bottom:20px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+footer img {
+    padding-left: 15px;
+}
+
+img {
+	display:block;
+}
+
+.slidercontainer {
+    text-align: center;
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%;
+    height: 25px; /* Specified height */
+    background: #eaeef9;
+    outline: none; /* Remove outline */
+}
+
+/* The slider handle */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #cc0033;
+    cursor: pointer; /* Cursor on hover */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: background .2s;
+}
+
+/* Mouse-over effects */
+.slider::-webkit-slider-thumb:hover {
+    background: #903;
+}
+
+/* upload submit button */
+.submit-btn {
+    font-size: 20px;
+	font-weight:700;
+	font-family:'Bai Jamjuree', sans-serif;
+    color: #ffffff;
+    background-color: #903;
+    display: inline-block;
+	padding: 7px 15px 7px 15px;
+	border:none;
+	border-radius: .25em;
+}
+
+input[type=file] {
+    font-size: 18px;
+	font-family:'Bai Jamjuree', sans-serif;
+	color:#4a4a4a;
+}
+
+/*tables*/
+
+table#tbl-header {
+	text-align: left;
+	display: inline-block;
+}
+
+table#tbl-header th {
+	font-size:26px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+table#tbl-header td {
+	font-size:17px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:20px;
+}
+
+table#tbl-sliders {
+	display: inline-block;
+}
+
+table#tbl-sliders td.left {
+    color: #cc0033;
+    font-size:20px;
+    font-weight:bold;
+    text-align: right;
+    width:20%;
+}
+
+table#tbl-sliders td.middle {
+    width:60%;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+table#tbl-sliders td.right {
+    color: #cc0033;
+    font-size:20px;
+    font-weight:bold;
+    text-align: left;
+    width:20%;
+}
+
+table#tbl-movies {
+	display: inline-block;
+	font-size:14px;
+	
+}
+
+table#tbl-movies td {
+	background-color:#f4f4f4;
+	border:1px solid #ffffff;
+	padding:15px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+table#tbl-footer {
+	margin: 10px;
+	display: inline-block;
+	font-size:13px;
+}
+
+table#tbl-footer td {
+	padding-left:15px;
+	padding-right:15px;
+}
+
+/*links*/
+
+a:link	
+{
+	color:#903;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover	
+{
+	color:#903;
+	text-decoration: underline;
+}
+
+a:visited
+{
+	color:#903;
+}
+
+a:active	
+{
+	color:#903;
+}
+
+a#upload {
+    color:#903;
+    font-weight: bold;
+	cursor: pointer; /* "hand" cursor */
+}
